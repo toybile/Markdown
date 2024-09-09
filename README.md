@@ -7,16 +7,16 @@ Listarei todos os comandos originais do Markdown. Também haverá alguns HTML, a
 ## Table of Contents
 
 ### Markdown
-- [Cabeçalhos](#cabecalhos)
-- [Parágrafos](#paragrafos)
-- [Quebra de Linha](#quebra-de-linha)
-- [Ênfase](#enfase)
-- [Citações](#citacoes)
-- [Código](#code)
-- [Barras Horizontais](#barras-horizontais)
+- [Headings](#headings)
+- [Parágraphs](#paragraphs)
+- [Line Break](#line-break)
+- [Emphasis](#emphasis)
+- [Blockquotes](#blockquotes)
+- [Code](#code)
+- [Horizontal Lines](#horizontal-lines)
 - [Links](#links)
 - [Images](#images)
-- [Caracteres](#caracteres)
+- [Characters](#characters)
 
 ### HTML
 - [DIVs](#divs)
@@ -26,7 +26,7 @@ Listarei todos os comandos originais do Markdown. Também haverá alguns HTML, a
 
 
 
-## [Cabeçalhos](#cabecalhos)
+## Headings
 
 Assim como no HTML, Markdown possui 6 níveis de Títulos/Cabeçalhos, descritos pela quantidade de "\#" antes do texto.
 
@@ -56,7 +56,11 @@ Codes:
 
 <br>
 
-Outputs:
+<details>
+    <summary>👀</summary>
+
+<br>
+
 1. > # Text
 
 2. > ## Text
@@ -69,7 +73,9 @@ Outputs:
 
 6. > ###### Text
 
-<br>
+</details>
+
+#
 
 Obs:
 
@@ -82,7 +88,7 @@ Além disso, eu realmente não consigo notar diferença entre o 5º e 6º nível
 
 
 
-## [Parágrafos](#paragrafos)
+## Paragraphs
 
 Parágrafos possuem uma característica em específico, eles possuem um espaço entre si. Cada bloco de parágrafo é isolado por esse espaço determinado pelo Markdown.
 
@@ -98,8 +104,14 @@ text 2
 text 3
 text 4
 ```
-> Output:
->
+
+<br>
+
+<details>
+    <summary>👀</summary>
+
+<br>
+
 > text 1
 >
 > text 2
@@ -107,15 +119,20 @@ text 4
 > text 3
 > text 4
 
+</details>
+
+#
+
 Caso coloquemos apenas na linha de baixo, acontecerá como no "text 3 text 4", aparecerão um do lado do outro.
 
 <br>
 
 
 
-## [Quebra de Linha](#quebra-de-linha)
+## Line Break
 
-Simplesmente vai para a linha de baixo, basta colocar 2 espaços:
+Faz o texto ir para a linha de baixo.  
+Basta colocar 2 espaços e escrever na linha de baixo:
 
 ``` Markdown
 Code:
@@ -124,19 +141,29 @@ Text  (<- 2 espaços [selecione para verificar])
 Text
 ```
 
-> Output:
->
+<br>
+
+<details>
+    <summary>👀</summary>
+
+<br>
+
 > Text  
 > Text
+
+</details>
+
+#
 
 A quebra de linha e o parágrafo são parecidos, sua única diferença é o tamanho do espaçamento.  
 Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai para a de baixo, sem pular ou deixar alguma vazia.
 
+
 <br>
 
 
 
-## [Ênfase](#enfase)
+## Emphasis
 
 ...
 
@@ -144,7 +171,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Citações](#citacoes)
+## Blockquotes
 
 ...
 
@@ -152,7 +179,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Code](#code)
+## Code
 
 ...
 
@@ -160,7 +187,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Barras Horizontais](#barras-horizontais)
+## Horizontal Lines
 
 ...
 
@@ -168,7 +195,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Links](#links)
+## Links
 
 ...
 
@@ -176,7 +203,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Images](#images)
+## Images
 
 ...
 
@@ -184,7 +211,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Caracteres](#caracteres)
+## Characters
 
 ...
 
@@ -192,7 +219,7 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [DIVs](#divs)
+## DIVs
 
 ...
 
@@ -200,4 +227,8 @@ Enquanto o parágrafo pula 1 linha, deixando uma em vazia, a quebra de linha vai
 
 
 
-## [Details](#details)
+## Details
+
+...
+
+<br>
