@@ -32,8 +32,6 @@ Assim como no HTML, Markdown possui 6 níveis de Títulos/Cabeçalhos, descritos
 
 O texto deve ser escrito após um espaço depois do "\#"
 
----
-
 <br>
 
 Codes:
@@ -58,11 +56,6 @@ Codes:
 
 <br>
 
----
-
-<br>
-
-
 Outputs:
 1. > # Text
 
@@ -75,10 +68,6 @@ Outputs:
 5. > ##### Text
 
 6. > ###### Text
-
-<br>
-
----
 
 <br>
 
