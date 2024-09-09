@@ -8,7 +8,7 @@ Listarei todos os comandos originais do Markdown. Também haverá alguns HTML, a
 
 ### Markdown
 - [Headings](#headings)
-- [Parágraphs](#paragraphs)
+- [Paragraphs](#paragraphs)
 - [Line Break](#line-break)
 - [Emphasis](#emphasis)
 - [Blockquotes](#blockquotes)
